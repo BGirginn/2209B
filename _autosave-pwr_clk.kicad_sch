@@ -648,6 +648,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Regülatör U4 - LM1117DT-3.3\nGiriş: SYS_UPS (5-9 V arası)\nÇıkış: +3.3 V nominal\nMax Iout: ~800 mA\nGiriş/Çıkış farkı yüksek olduğunda termal kayıplar artar.\nGerekirse buck regülatör alternatifi değerlendirilecektir.\n"
+		(exclude_from_sim no)
+		(at 57.404 17.526 0)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+		)
+		(uuid "8cb533dd-b77d-4669-8dfb-11bf43a78d0f")
+	)
 	(junction
 		(at 30.48 29.21)
 		(diameter 0)
@@ -709,6 +719,26 @@
 			(justify left bottom)
 		)
 		(uuid "87edc360-0024-4838-a1a1-401cd9ef0002")
+	)
+	(label "3V3"
+		(at 53.34 29.21 0)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca4f062-e4d7-4d6b-8d18-b87615c75cfe")
+	)
+	(label "SYS_UPS"
+		(at 34.29 29.21 0)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66b4e01-166f-4609-919c-332f735b286f")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
